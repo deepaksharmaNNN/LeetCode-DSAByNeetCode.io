@@ -1,6 +1,6 @@
 # LeetCode Java Solutions
 
-This repository contains Java solutions to various LeetCode problems. Each solution is organized by difficulty level and further categorized by topics to help you find relevant examples quickly.
+This repository contains Java solutions to various LeetCode problems. Solutions are organized by topics, and each topic may have subfolders for easy, medium, and hard-level problems.
 
 ## Table of Contents
 
@@ -15,24 +15,21 @@ This repository contains Java solutions to various LeetCode problems. Each solut
 
 ## Introduction
 
-Welcome to the LeetCode Java Solutions repository! Here, you'll find Java implementations for over 450 LeetCode problems. Whether you're a beginner looking for examples or an experienced developer seeking efficient solutions, this repository is designed to assist you in your coding journey.
+Welcome to the LeetCode Java Solutions repository! Here, you'll find Java implementations for over 450 LeetCode problems, organized by topics such as "Arrays and Hashing." Whether you're a beginner looking for examples or an experienced developer seeking efficient solutions, this repository is designed to assist you in your coding journey.
 
 ## Folder Structure
 
-The solutions are organized into three main categories and further subcategorized by topics. The structure is as follows:
+The solutions are organized into folders based on topics and difficulty levels. The structure is as follows:
 
-- `Easy/`
-  - `Array/`: Easy-level problems related to arrays
-  - `String/`: Easy-level problems related to strings
-  - ... (add more subcategories based on topics)
-- `Medium/`
-  - `Array/`: Medium-level problems related to arrays
-  - `String/`: Medium-level problems related to strings
-  - ... (add more subcategories based on topics)
-- `Hard/`
-  - `Array/`: Hard-level problems related to arrays
-  - `String/`: Hard-level problems related to strings
-  - ... (add more subcategories based on topics)
+- `Arrays_and_Hashing/`
+  - `Easy/`: Easy-level problems
+  - `Medium/`: Medium-level problems
+  - `Hard/`: Hard-level problems
+- `Linked_Lists/`
+  - `Easy/`: Easy-level problems
+  - `Medium/`: Medium-level problems
+  - `Hard/`: Hard-level problems
+- ... (add more folders based on topics)
 
 ## Naming Convention
 
