@@ -42,24 +42,29 @@ For example:
 - `001_Two_Sum.java`
 - `102_Level_Order_Traversal.java`
 
-## Comments and Documentation
+name: Update README
 
-Comments have been added to explain the thought process, algorithms used, and any important considerations. For further details on specific solutions or common coding patterns, refer to the [Wiki](wiki).
+on:
+  push:
+    branches:
+      - main
 
-## Testing
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
 
-Test cases have been provided with each solution to validate the correctness of the code. Feel free to explore and adapt the test cases to your requirements.
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-## Contribution Guidelines
+      - name: Copy README to New Location
+        run: cp README.md updated-readme/README.md
 
-If you'd like to contribute to this repository, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md). Contributions, improvements, and feedback are always welcome!
+      - name: Commit and Push Updated README
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add updated-readme/README.md
+          git commit -m "Update README.md"
+          git push
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own learning and educational purposes.
-
-## Acknowledgments
-
-Special thanks to [contributors](https://github.com/your-username/your-repo/contributors) who have helped improve and expand this repository.
-
-Happy Coding!
