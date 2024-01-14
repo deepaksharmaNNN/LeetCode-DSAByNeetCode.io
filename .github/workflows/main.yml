@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Copy README to New Location
+        run: cp README.md updated-readme/README.md
+
+      - name: Commit and Push Updated README
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add updated-readme/README.md
+          git commit -m "Update README.md"
+          git push
