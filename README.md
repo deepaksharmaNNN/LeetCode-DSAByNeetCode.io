@@ -7,11 +7,6 @@ This repository contains Java solutions to various LeetCode problems. Solutions 
 - [Introduction](#introduction)
 - [Folder Structure](#folder-structure)
 - [Naming Convention](#naming-convention)
-- [Comments and Documentation](#comments-and-documentation)
-- [Testing](#testing)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
