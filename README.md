@@ -7,11 +7,6 @@ This repository contains Java solutions to various LeetCode problems. Solutions 
 - [Introduction](#introduction)
 - [Folder Structure](#folder-structure)
 - [Naming Convention](#naming-convention)
-- [Comments and Documentation](#comments-and-documentation)
-- [Testing](#testing)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -42,24 +37,3 @@ For example:
 - `001_Two_Sum.java`
 - `102_Level_Order_Traversal.java`
 
-## Comments and Documentation
-
-Comments have been added to explain the thought process, algorithms used, and any important considerations. For further details on specific solutions or common coding patterns, refer to the [Wiki](wiki).
-
-## Testing
-
-Test cases have been provided with each solution to validate the correctness of the code. Feel free to explore and adapt the test cases to your requirements.
-
-## Contribution Guidelines
-
-If you'd like to contribute to this repository, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md). Contributions, improvements, and feedback are always welcome!
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own learning and educational purposes.
-
-## Acknowledgments
-
-Special thanks to [contributors](https://github.com/your-username/your-repo/contributors) who have helped improve and expand this repository.
-
-Happy Coding!
