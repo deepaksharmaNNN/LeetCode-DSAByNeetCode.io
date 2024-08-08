@@ -1,7 +1,5 @@
 # LeetCode Java Solutions
 
-
-
 This repository contains Java solutions to various LeetCode problems. Solutions are organized by topics, and each topic may have subfolders for easy, medium, and hard-level problems.
 
 ## Table of Contents
